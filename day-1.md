@@ -15,3 +15,27 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 ```bash
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
+
+## Install Copilot CLI
+
+<img alt="GitHub Copilot" src="https://octodex.github.com/images/jetpacktocat.png" width="100" align="right">
+
+Install [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli) to use AI-powered suggestions directly in your terminal.
+
+### Prerequisites
+
+- [ ] Install [GitHub CLI (`gh`)](https://cli.github.com/)
+- [ ] Authenticate with `gh auth login`
+- [ ] Have an active [GitHub Copilot subscription](https://github.com/features/copilot)
+
+### Install the Copilot CLI extension
+
+```bash
+gh extension install github/gh-copilot
+```
+
+### Verify the installation
+
+```bash
+gh copilot --help
+```
