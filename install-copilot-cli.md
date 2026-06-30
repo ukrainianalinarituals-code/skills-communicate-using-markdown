@@ -35,7 +35,7 @@ brew install --cask copilot-cli
 
 ### Using WinGet (Windows only)
 
-```bash
+```powershell
 winget install GitHub.Copilot
 ```
 
