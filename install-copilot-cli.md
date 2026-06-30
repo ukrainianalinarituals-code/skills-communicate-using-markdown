@@ -1,6 +1,6 @@
 # Installing GitHub Copilot CLI
 
-<img alt="GitHub Copilot" src="https://octodex.github.com/images/codercat.jpg" width="120" align="right">
+<img alt="CoderCat (Octodex)" src="https://octodex.github.com/images/codercat.jpg" width="120" align="right">
 
 GitHub Copilot CLI brings AI-powered assistance directly to your terminal. Use it to explain shell commands, suggest commands, and get help with your workflow — all from the command line.
 
